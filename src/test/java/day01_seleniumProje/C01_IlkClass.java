@@ -22,9 +22,13 @@ public class C01_IlkClass {
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://www.amazon.com/");
-        Thread.sleep(2000);
-        driver.get("https://www.youtube.com/");
-        Thread.sleep(2000);
+        driver.getTitle();
+        driver.getCurrentUrl();
+        driver.getPageSource();
+
+        // Thread.sleep(2000);
+        // driver.get("https://www.youtube.com/");
+        // Thread.sleep(2000);
 
         // driver.close();
 
